@@ -1,0 +1,17 @@
+.btn {
+    background-color: var(--color-primary);
+    text-decoration: none;
+    color: var(--color-white);
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-transform: uppercase;
+    cursor: pointer;
+    display: inline-block;
+}
+.btn:hover {
+    background-color: var(--color-primary-dark);
+}
+.btn--lg {
+    font-size: 1.5rem;
+    padding: 15px 30px;
+}

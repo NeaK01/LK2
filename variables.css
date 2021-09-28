@@ -1,0 +1,17 @@
+:root {
+    /* Colors */
+    --color-primary: rgb(140, 117, 221);
+    --color-primary-dark: rgb(96, 80, 153);
+    --color-gray: #ccc; 
+    --color-white: #ffffff; 
+    --color-off-white: #f5f5f5; 
+    --color-black: #000000; 
+
+
+    /* Z Index */
+    --z-10: 10;
+    
+    --breakpoint-sm: 768px;
+    --breakpoint-md: 992px;
+    --breakpoint-lg: 1200px;
+}

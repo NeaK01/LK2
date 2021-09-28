@@ -1,0 +1,6 @@
+@media screen and (min-width: 1200px) {
+    /* > 1200 only  */
+    .container {
+        max-width: var(--breakpoint-lg);
+    }
+}

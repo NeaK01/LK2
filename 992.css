@@ -1,0 +1,7 @@
+@media screen and (min-width: 992px) {
+    /* > 922 only  */
+    .container {
+        max-width: var(--breakpoint-md);
+    }
+}
+

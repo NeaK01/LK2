@@ -1,0 +1,40 @@
+html { 
+    font-size: 20px;
+    line-height: 1.5;
+}
+
+body{
+    font-family: 'Karla', sans-serif;
+}
+
+.site-wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.site-wrapper > main {
+    flex: 1 1 auto;
+}
+
+a {
+    color: var(--color-primary);
+    text-decoration: none;
+}
+a:hover {
+    color: var(--color-primary-dark);
+    text-decoration: underline;
+}
+
+.container {
+    box-sizing: border-box;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: var(--breakpoint-sm);
+    padding-left: 15px;
+    padding-right: 15px;
+}
+main {
+    padding-bottom: 50px;
+}
